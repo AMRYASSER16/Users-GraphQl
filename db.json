@@ -1,14 +1,35 @@
 {
-    "users": [
-        {
-            "id": "10",
-            "firstName": "Amr",
-            "age": 29
-        },
-        {
-            "id": "11",
-            "firstName": "Yasser",
-            "age": 29
-        }
-    ]
+  "users": [
+    {
+      "id": "10",
+      "firstName": "Amr",
+      "age": 29,
+      "companyId": "1"
+    },
+    {
+      "id": "11",
+      "firstName": "Yasser",
+      "age": 29,
+      "companyId": "2"
+    },
+    {
+        "id": "12",
+        "firstName": "Mahmoud",
+        "age": 29,
+        "companyId": "1"
+      }
+  ],
+
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "iphone"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "search"
+    }
+  ]
 }
